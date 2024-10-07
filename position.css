@@ -1,0 +1,31 @@
+.main{
+   
+    height: 100vh;
+    background-color: #e31f1f;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+.cont1{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    background-color: black;
+    font-family: Arial, sans-serif;
+    position: absolute;
+  top: 50px;
+  left: 20px;
+  z-index: 4;
+
+}
+.cont2{
+
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: azure;
+    font-family: Arial, sans-serif;
+    position: absolute;
+    top:30px;
+    left: 10px;
+    z-index:6;
+}

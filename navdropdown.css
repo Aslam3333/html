@@ -1,0 +1,43 @@
+.main{
+    height: 100vh;
+    background-color: #fafafa;
+    font-family: Arial, sans-serif;
+    position: relative;
+
+}
+.nav{
+    
+position: absolute;
+display: flex;
+gap: 100px;
+justify-content:left;
+align-items: center;
+height: 50px;
+width: 100%;
+background-color: #1b0e2d;
+font-family: Arial, sans-serif;
+color: rgb(243, 243, 243);
+
+}
+.cont1{
+    display: none; 
+    background-color: #000000;
+    color: #fafafa;
+    font-family: Arial, sans-serif;
+position: absolute;
+top: 50px;
+width: 200px;
+}
+.nav1:hover .cont1{
+    display: block;
+
+}
+li{
+    list-style-type: none;
+}
+.next{
+    
+    
+
+
+}

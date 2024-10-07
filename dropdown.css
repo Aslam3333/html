@@ -1,0 +1,22 @@
+.main{
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    position: relative;
+
+}
+.cont1{
+    display: none;
+    height: 50px;
+    width: 100%;
+    background-color: #f3f3f3;
+    font-family: Arial, sans-serif;
+position: absolute;
+}
+.nav{
+    color: black;
+    display: flex;
+    gap: 100px;
+}
+.main:hover .cont1{
+    display: block;
+}

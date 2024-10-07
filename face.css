@@ -1,0 +1,53 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ccc7d5;
+    font-family: Arial, sans-serif;
+
+
+}
+.facebook{
+   color: rgb(0, 0, 0);
+   
+}
+.box{
+    background-color: rgb(255, 255, 255);
+   
+    background-position: center;
+    height: 350px;
+    width: 400px;
+    border-radius:14px ;
+}
+.label{
+    display: flex;
+    align-items: center;
+    flex-direction:column ;
+    margin-top: 17px;
+
+}
+input{
+    width: 350px;
+    padding: 10px;
+    margin-top: 6px;
+}
+.log{
+    width: 350px;
+    background-color: blue;
+    color: azure;
+    padding: 10px;
+    border-radius: 6px;
+
+}
+.new{
+    width: 150px;
+    background-color: rgb(9, 116, 28);
+    color: azure;
+    margin-top: 6px;
+    padding: 10px;
+    border-radius: 6px;
+}
+.facebook{
+    color: blue;
+}
